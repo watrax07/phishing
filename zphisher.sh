@@ -204,16 +204,15 @@ check_status() {
 banner() {
 	cat <<- EOF
 		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : ${__version__}
+		${ORANGE}       _     _     _               
+		${ORANGE}      | |   (_)   | |              
+		${ORANGE} _ __ | |__  _ ___| |__   ___ _ __
+		${ORANGE}| '_ \| '_ \| / __| '_ \ / _ \ '__|
+		${ORANGE}| |_) | | | | \__ \ | | |  __/ |   
+		${ORANGE}| |   |_| |_|_|___/_| |_|\___|_|   
+		${ORANGE}| |              ${RED}Version : ${__version__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by WATRAX${WHITE}
 	EOF
 }
 
@@ -221,9 +220,9 @@ banner() {
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
+		${BLUE}  ░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
+		${BLUE}  ░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
+		${BLUE}  ░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
 	EOF
 }
 
